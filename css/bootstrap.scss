@@ -1,0 +1,14 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+$font-family-sans-serif:  'Inter', sans-serif;
+
+
+// color
+$primary: #1B3054;
+$secondary: #FEDA48;
+$success: #263D65;
+$light: #E9EEF9;
+$info: #F3F8FE;
+$danger: #FE4300;
+@import "node_modules/bootstrap/scss/bootstrap";
