@@ -5,3 +5,7 @@
 .people-title{
     font-family: 'Bebas Neue', cursive;
 }
+
+.letter-ratio{
+    --bs-aspect-ratio: 80%;
+}
