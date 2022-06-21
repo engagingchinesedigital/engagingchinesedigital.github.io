@@ -13,3 +13,24 @@
 .letter-ratio{
     --bs-aspect-ratio: 80%;
 }
+
+.bg-img-1{
+    background-image: url('../image/IMG_5501.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: bottom 60% right 0; 
+}
+
+@media (max-width: 1200px) {
+    .bg-img-1{
+        background-position: bottom 55% right 0px;
+    }
+ }
+ 
+ @media (max-width: 576px) {
+    .bg-img-1{
+        background-position: center; 
+    }
+ }
+
+
