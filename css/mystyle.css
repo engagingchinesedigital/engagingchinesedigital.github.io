@@ -15,7 +15,8 @@
 }
 
 .bg-img-1{
-    background-image: url('../image/IMG_5501.jpg');
+    background-image: url('../image/IMG_5501.jpg'),  linear-gradient(#e9eef995,#263d6501);
+    background-blend-mode: overlay; 
     background-repeat: no-repeat; 
     background-size: cover;
     background-position: bottom 60% right 0; 
