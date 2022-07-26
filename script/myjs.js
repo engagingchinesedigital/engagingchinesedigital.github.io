@@ -38,4 +38,19 @@ document.getElementById("mariobtn").addEventListener("click", function() {
     document.getElementById("marioframe").setAttribute("src", "../file/Mario.pdf");
 });
 
+document.getElementById("kaidibtn1").addEventListener("click", function() {
+    document.getElementById("kaidiframe1").setAttribute("src", "https://docs.google.com/presentation/d/e/2PACX-1vSiabphazhUh88FWF-6F2nxunx3CDCkptZcQIxYkdhmVu0C4wmZMbweEIRV-4vTCw/embed?start=false&loop=false&delayms=3000");
+});
+
+document.getElementById("kaidibtn2").addEventListener("click", function() {
+    document.getElementById("kaidiframe2").setAttribute("src", "https://docs.google.com/presentation/d/e/2PACX-1vQcDuJrwmWm-x_UWOG1Vd4J7pMBpZAJSWsavWofPAdvEX02b11_r0f_z-QHAlGeOw/embed?start=false&loop=false&delayms=3000");
+});
+
+document.getElementById("chihbtn1").addEventListener("click", function() {
+    document.getElementById("chihframe1").setAttribute("src", "https://docs.google.com/presentation/d/e/2PACX-1vRSRtsYfWVzpnUo0OgSsZDguYXlB0p7kgfWtv8XVg_FEXKgbN4HoQEoT5g1MhrT9A/embed?start=false&loop=false&delayms=3000");
+});
+
+document.getElementById("chihbtn2").addEventListener("click", function() {
+    document.getElementById("chihframe2").setAttribute("src", "https://docs.google.com/presentation/d/e/2PACX-1vTNw3xqpZ8vIbhADU9ArwwR0Q_h9C6Ai6SX8vDzqFizOwVS8igd9BaDyesVCARw9eNUKZ44l0Q8xbf_/embed?start=false&loop=false&delayms=3000");
+});
 console.log("Hi");
