@@ -53,4 +53,13 @@ document.getElementById("chihbtn1").addEventListener("click", function() {
 document.getElementById("chihbtn2").addEventListener("click", function() {
     document.getElementById("chihframe2").setAttribute("src", "https://docs.google.com/presentation/d/e/2PACX-1vTNw3xqpZ8vIbhADU9ArwwR0Q_h9C6Ai6SX8vDzqFizOwVS8igd9BaDyesVCARw9eNUKZ44l0Q8xbf_/embed?start=false&loop=false&delayms=3000");
 });
+
+document.getElementById("runqibtn1").addEventListener("click", function() {
+    document.getElementById("runqiframe1").setAttribute("src", "https://docs.google.com/presentation/d/e/2PACX-1vQ0JX7l11-PL7T2qefIQu-dAifGmL1YQ3M_bNnxnFvppufmm4t4zCXdZkU9B3Tb8A/embed?start=false&loop=false&delayms=3000");
+});
+
+document.getElementById("brianbtn").addEventListener("click", function() {
+    document.getElementById("brianframe").setAttribute("src", "https://docs.google.com/presentation/d/e/2PACX-1vSAiy9PHvCpY5nlUE0MMTC8tDMnQMLY_971rT3vOd-EQa6s-IRQMeJQ1Tpi5xKHHJYKOexn87Ci2F9G/embed?start=false&loop=false&delayms=3000");
+});
+
 console.log("Hi");
