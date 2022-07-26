@@ -22,4 +22,8 @@ document.getElementById("kublerbtn").addEventListener("click", function() {
     document.getElementById("kublerframe").setAttribute("src", "../file/Kubler.pdf");
 });
 
+document.getElementById("wagnerbtn").addEventListener("click", function() {
+    document.getElementById("wagnerframe").setAttribute("src", "../file/Wagner-min.pdf");
+});
+
 console.log("Hi");
