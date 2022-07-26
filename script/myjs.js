@@ -34,4 +34,8 @@ document.getElementById("yalinbtn").addEventListener("click", function() {
     document.getElementById("yalinframe").setAttribute("src", "../file/Yalin Chen.pdf");
 });
 
+document.getElementById("mariobtn").addEventListener("click", function() {
+    document.getElementById("marioframe").setAttribute("src", "../file/Mario.pdf");
+});
+
 console.log("Hi");
