@@ -18,4 +18,8 @@ document.getElementById("jinbtn").addEventListener("click", function() {
     document.getElementById("jinframe").setAttribute("src", "../file/Jin CLTA Conference -min.pdf");
 });
 
+document.getElementById("kublerbtn").addEventListener("click", function() {
+    document.getElementById("kublerframe").setAttribute("src", "../file/Kubler.pdf");
+});
+
 console.log("Hi");
