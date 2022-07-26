@@ -10,4 +10,12 @@ document.getElementById("shibtn3").addEventListener("click", function() {
     document.getElementById("shiframe3").setAttribute("src", "../file/Final remarks Shi.pdf");
 });
 
+document.getElementById("nadabtn").addEventListener("click", function() {
+    document.getElementById("nadaframe").setAttribute("src", "../file/Dabbagh.pdf");
+});
+
+document.getElementById("jinbtn").addEventListener("click", function() {
+    document.getElementById("jinframe").setAttribute("src", "../file/Jin CLTA Conference -min.pdf");
+});
+
 console.log("Hi");
