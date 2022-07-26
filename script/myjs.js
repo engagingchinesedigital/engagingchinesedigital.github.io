@@ -62,4 +62,8 @@ document.getElementById("brianbtn").addEventListener("click", function() {
     document.getElementById("brianframe").setAttribute("src", "https://docs.google.com/presentation/d/e/2PACX-1vSAiy9PHvCpY5nlUE0MMTC8tDMnQMLY_971rT3vOd-EQa6s-IRQMeJQ1Tpi5xKHHJYKOexn87Ci2F9G/embed?start=false&loop=false&delayms=3000");
 });
 
+document.getElementById("olgabtn").addEventListener("click", function() {
+    document.getElementById("olgaframe").setAttribute("src", "https://docs.google.com/presentation/d/e/2PACX-1vTwKAEY1rUrc6H155qe9WbOPlV1NZGRGGpppKaKSuW-fH2DMeorQvzCaVhvIvlMxA/embed?start=false&loop=false&delayms=3000");
+});
+
 console.log("Hi");
