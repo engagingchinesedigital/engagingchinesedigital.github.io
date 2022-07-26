@@ -26,4 +26,8 @@ document.getElementById("wagnerbtn").addEventListener("click", function() {
     document.getElementById("wagnerframe").setAttribute("src", "../file/Wagner-min.pdf");
 });
 
+document.getElementById("liubtn").addEventListener("click", function() {
+    document.getElementById("liuframe").setAttribute("src", "../file/Liu-min.pdf");
+});
+
 console.log("Hi");
