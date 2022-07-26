@@ -30,4 +30,8 @@ document.getElementById("liubtn").addEventListener("click", function() {
     document.getElementById("liuframe").setAttribute("src", "../file/Liu-min.pdf");
 });
 
+document.getElementById("yalinbtn").addEventListener("click", function() {
+    document.getElementById("yalinframe").setAttribute("src", "../file/Yalin Chen.pdf");
+});
+
 console.log("Hi");
